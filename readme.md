@@ -1,6 +1,6 @@
-# Syncify Strap ~ Dawn Basic
+# Syncify Demo ~ Dawn Basic
 
-Basic level[Syncify](https://github.com/panoply/syncify) strap building the Shopify [Dawn](https://github.com/Shopify/dawn) theme. This example is the most low level (elementary) configurations for building themes leveraging Syncify.
+Basic level [Syncify](https://github.com/panoply/syncify) strap building the Shopify [Dawn](https://github.com/Shopify/dawn) theme. This example is the most low level (elementary) configurations for building themes leveraging Syncify.
 
 ### Showcasing
 
