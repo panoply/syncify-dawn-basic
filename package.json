@@ -1,0 +1,20 @@
+{
+  "name": "@syncify/dawn-basic",
+  "version": "1.0.0",
+  "description": "Syncify Strap (Dawn Basic) with the most elementary presets.",
+  "scripts": {
+    "dev": "syncify syncify --theme dev --watch --hot",
+    "build": "syncify --build --prod --clean",
+    "upload": "syncify syncify --theme dev --upload",
+    "download": "syncify syncify --theme dev --download"
+  },
+  "license": "MIT",
+  "eslintConfig": {},
+  "devDependencies": {
+    "@syncify/cli": "latest",
+    "autoprefixer": "^10.4.14",
+    "esbuild": "^0.18.11",
+    "postcss": "^8.4.24",
+    "svg-sprite": "^2.0.2"
+  }
+}

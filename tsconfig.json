@@ -1,0 +1,30 @@
+{
+  "exclude": [
+    "node_modules/**",
+    "export",
+    "theme"
+  ],
+  "include": [
+    "source/assets/scripts/**/*"
+  ],
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": [
+      "es2020",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "ESNext",
+    "allowUnreachableCode": true,
+    "checkJs": true,
+    "allowJs": true,
+    "outDir": "theme/assets",
+    "declaration": false,
+    "ignoreDeprecations": "5.0",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "pretty": true,
+    "paths": {}
+  }
+}
