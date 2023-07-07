@@ -24,7 +24,7 @@ export default defineConfig({
   stores: {
     domain: 'syncify', // Replace this with your store domain
     themes: {
-      dev: 136656060657 // Replace this with you theme id
+      dev: 136656060657 // Replace this with your theme id
     }
   },
 
@@ -69,6 +69,12 @@ export default defineConfig({
           }
         }
       }
+    }
+  },
+
+  processors: {
+    esbuild: {
+      sourcemap: false
     }
   },
 
