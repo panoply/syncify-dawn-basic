@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Syncify Strap (Dawn Basic) with the most elementary presets.",
   "scripts": {
-    "dev": "syncify syncify --theme dev --watch --hot",
+    "dev": "syncify sissel --theme dev --watch --hot",
     "build": "syncify --build --prod --clean",
-    "upload": "syncify syncify --theme dev --upload",
-    "download": "syncify syncify --theme dev --download"
+    "upload": "syncify sissel --theme dev --upload",
+    "download": "syncify sissel --theme dev --download"
   },
   "license": "MIT",
   "eslintConfig": {},

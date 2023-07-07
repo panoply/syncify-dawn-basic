@@ -22,9 +22,9 @@ export default defineConfig({
   // ADD YOUR STORE/S + THEME/S
 
   stores: {
-    domain: 'syncify',
+    domain: 'syncify', // Replace this with your store domain
     themes: {
-      dev: 136656060657
+      dev: 136656060657 // Replace this with you theme id
     }
   },
 
