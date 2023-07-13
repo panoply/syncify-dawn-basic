@@ -32,7 +32,7 @@ export default defineConfig({
 
   views: {
     sections: {
-      prefixDir: true,
+      prefixDir: false,
       separator: '-',
       global: []
     },
