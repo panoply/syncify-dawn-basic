@@ -25,12 +25,12 @@ Go to the [Syncify](https://github.com/panoply/syncify) repository and review re
 
 ### Requirements
 
-You will need to update the `env.example` file first. Say (for example) your myshopify store name is `sissel` - you will need to define this information.
+You will need to update the `env.example` file first. Say for example your myshopify store name is `sissel` - you will need to define this information.
 
 Rename the `.env.example` file to `.env` and enter the following:
 
 ```bash
-# EXAMPLE ADMIN API TOKEN - CHANGE TO YOUR STORE NAME
+# EXAMPLE ADMIN API TOKEN - CHANGE THE KEY PREFIX TO YOUR STORE NAME. EX. my-store_api_token
 #
 sissel_api_token = 'TOKEN-GOES-HERE'
 ```
